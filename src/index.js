@@ -25,7 +25,7 @@ export default {
 	  
 	  html_content1 += "<p> Country: " + request.cf.country + "</p>";
 	  html_content2 += "<p> Time: " + t +  " from" + "</p>";
-	  html_content3 += "<p> EmailAddress: " + headers.get('Cf-Access-Authenticated-User-Email')
+	  html_content3 += "<p> EmailAddress: " + request.headers.get('Cf-Access-Authenticated-User-Email')
   
 	  
 	  let html = `<!DOCTYPE html>
