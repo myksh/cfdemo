@@ -4,7 +4,7 @@ compatibility_date = "2023-11-21"
 
 #custom domain mapping
 routes = [
-	{ pattern = "tunnel.mcfdemo.uk/secure", zone_name = "mcfdemo.uk" }
+	{ pattern = "tunnel1.mcfdemo.uk/secure", zone_name = "mcfdemo.uk" }
 ]
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
